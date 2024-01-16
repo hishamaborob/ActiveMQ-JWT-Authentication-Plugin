@@ -12,17 +12,15 @@
     <properties>
         <jdk.version>1.8</jdk.version>
         <spring.version>4.3.4.RELEASE</spring.version>
-        <activemq.version>5.8.0</activemq.version>
         <jjwt.version>0.7.0</jjwt.version>
         <org.slf4j-version>1.7.21</org.slf4j-version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-core</artifactId>
-            <version>${activemq.version}</version>
-            <scope>provided</scope>
+                 <groupId>org.apache.activemq</groupId>
+                 <artifactId>activemq-broker</artifactId>
+                 <version>6.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
